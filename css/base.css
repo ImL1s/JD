@@ -146,6 +146,7 @@ s, i, em {
         width: 15px;
         height: 7px;
         overflow: hidden;
+        /* 400為字體粗細(400~900) 13px/15px為; font-size/line-height; */
         font: 400 13px/15px "consolas";
     }
     .site-nav-send s,
