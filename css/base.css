@@ -91,9 +91,8 @@ s, i, em {
     color: #C81623 !important;
 }
 
-/*公共類*/
 .w {
-    /*版心 提取 */
+    /*網頁內容限制寬度 */
     width: 1210px;
     margin: 0 auto;
 }
