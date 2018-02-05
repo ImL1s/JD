@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>京東</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="icon" href="favicon.ico">
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="icon" href="favicon.ico" />
 </head>
 <body>
     <!--nav開始-->
@@ -76,7 +77,7 @@
             <a href="#">京東</a>
         </div>
         <div class="search-input">
-            <input type="text" value="運動相機">
+            <input id="input_search" onkeyup="search()" type="text" value="運動相機">
             <button>搜索</button>
         </div>
         <div class="search-car">
@@ -86,7 +87,7 @@
             <i class="search-car-mag">6</i>
         </div>
         <div class="search-moreAlink">
-            <ul>
+            <ul id="ul_search">
                 <li><a href="#" class="col-red">30抵130</a></li>
                 <li><a href="#">69元秒風扇</a></li>
                 <li><a href="#">農用物資</a></li>
